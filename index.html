@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+ <title>Татьяна</title>
+ <meta charset="utf-8">
+ <style>
+    html, body{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        font-family: Arial, Helvatica, sans-serif;
+        color: #060606;
+    }    
+    a {
+        color: black;
+        margin-right: 30px;
+        text-decoration: none;
+    } 
+    a:hover {
+        text-decoration: underline;
+
+    } 
+    header {
+        height: 100px;
+    }    
+    .fixed-container{        
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 100%;
+    }  
+    header > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    button {
+        font-size: 14px;
+        padding: 15px 40px;
+        border-radius: 10px;
+    }
+    .light-button {
+        background-color: transparent;        
+        border: 1px solid black;        
+    }
+    .dark-button {
+        background-color: blue;
+        border: 1px solid darkblue;    
+        color: white;    
+    }
+    .first-block > div{
+        height: 500px;
+        background-image: url('/img/man.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 60px;        
+        margin: 0 0 20px 0;
+    }
+    .subtitle {
+        margin: 0 0 30px 0;
+    }
+ </style>
+ <body>
+    <header>
+        <div class="fixed-container">
+            <nav >
+                <a href="#">Услуги</a>
+                <a href="#">Портфолио</a>
+                <a href="#">Стоимость</a>
+            </nav>
+            <div>
+                + 7-902-205-16-66
+                &nbsp;&nbsp;&nbsp;
+                <button class="light-button">Заказать звонок</button>
+            </div>
+        </div>
+        <section class='first-block'>
+        <div class=fix-fixed-container>
+            <h1>
+                Татьяна
+            </h1>
+            <p class='subtitle'>Фронтэнд разработчик и web-верстальщик</p>
+            <button class="dark-button">Узнать больше</button>
+
+        </div>
+
+    </section>
+    </header>
+    
+ </body>
+</html>
